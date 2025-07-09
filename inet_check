@@ -1,0 +1,9 @@
+/var/log/inet-check.log {
+        compress
+        daily
+        delaycompress
+        missingok
+        notifempty
+        rotate 30
+        create 0644 root root
+}
